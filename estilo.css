@@ -6,7 +6,7 @@ body {
 		"header header header"
 		"sidebarIz contenido sidebarDer"
 		"footer footer footer";
-	background-color: #CDCDCD;s
+	background-color: white;
 }
 
 /*div#contenedor {
@@ -22,7 +22,7 @@ div#cabecera {
 	justify-content: space-between;
 	padding: 30px;
 	/*height: 100px;*/
-	background-color: #303030;
+	background-color: #17105C;
 	color: white;
 	grid-area: header;
 }
@@ -47,9 +47,10 @@ div#sidebar-left {
 	float: left;
 	font-size: 20px;
 	/*width: 170px;*/
-	height: 600px;
-	background-color: #dddddd;
+	height: 660px;
+	background-color: #7064E0;
 	grid-area: sidebarIz;
+	color: white;
 	
 }
 
@@ -81,9 +82,10 @@ div#sidebar-right {
 	float: right;
 	/*width: 170px;*/
 	font-size: 20px;
-	height: 600px;
-	background-color: #dddddd;
+	height: 660px;
+	background-color: #7064E0;
 	grid-area: sidebarDer;
+	color: white;
 }
 
 div#contenido {
@@ -100,7 +102,7 @@ div#contenido {
 div#pie {
 	display: flex-inline;
 	padding-top: 30px;
-	background-color: #303030;
+	background-color: #17105C;
 	color: white;
 	text-align: center;
 	font-size: 20px;
@@ -176,6 +178,15 @@ div#posts img {
 	margin: auto;
 }
 
+.fotoAnuncio{
+	max-height: 170px;
+	max-width: 500px;
+	height:auto;
+	width:auto;
+	display: block;
+	margin: auto;
+}
+
 #button-salir{
 	background-color: red;
 }
@@ -188,8 +199,8 @@ div#posts img {
 	margin-top: 0px;
 	text-align: center;
 	font-size: 60px;
-	color: yellow;
-	background-color: black;
+	color: white;
+	background-color: #17105C;
 }
 
 #parrafoPrincipal{
